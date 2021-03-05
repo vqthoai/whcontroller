@@ -2,7 +2,9 @@
 <html>
 <head>
 <style>
+
 a:link, a:visited {
+  font-size: 1.2em;
   background-color: #00BFFF;
   color: white;
   padding: 15px 25px;
@@ -11,15 +13,32 @@ a:link, a:visited {
   display: inline-block;
 }
 
-a:hover, a:active {
-  background-color: red;
+.container { 
+  height: 70px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 </style>
 </head>
-<body>
-
-<h2>FLEMING TOOLS</h2>
-<a href="default.asp" target="_blank">WHController</a>
+<body style="background-color:#34495E ;">
+<div class="container">
+  <div class="center">
+    <h1 style="color:tomato;">FLEMING TOOLS</h2>
+  </div>
+</div>
+<div class="container">
+  <div class="center">
+    <a href="default.asp" target="_blank">WHController IOS</a>
+  </div>
+</div>
 
 </body>
 </html>
